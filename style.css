@@ -197,7 +197,7 @@ header > .center-content > p {
     line-height: 2;
 }
 
-header > .center-content > button{
+.btn{
     padding: 10px 20px;
     font-size: medium;
     font-family: sans-serif;
@@ -208,6 +208,28 @@ header > .center-content > button{
     transition: ease-in-out 0.3s;
 }
 
-header > .center-content > button:hover{
+.btn:hover{
     font-size: x-large;
+}
+
+.take-care{
+    padding: 50px 10px;
+    display: flex;
+    width: 70%;
+    gap: 50px;
+    margin: 0px auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.take-care > .description > h1{
+    font-size: 70px;
+    margin: 0px;
+}
+
+.take-care > .description > p{
+    line-height: 2;
+    font-size: medium;
 }
