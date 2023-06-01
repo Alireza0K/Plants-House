@@ -199,7 +199,7 @@ header > .center-content > p {
 
 .btn{
     padding: 10px 20px;
-    font-size: medium;
+    font-size: small;
     font-family: sans-serif;
     background-color: rgb(27, 49, 31);
     color: #ffffff;
@@ -209,7 +209,7 @@ header > .center-content > p {
 }
 
 .btn:hover{
-    font-size: x-large;
+    font-size: large;
 }
 
 .take-care{
@@ -232,4 +232,17 @@ header > .center-content > p {
 .take-care > .description > p{
     line-height: 2;
     font-size: medium;
+}
+
+.vine-tree{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.vine-tree > div{
+    width: 350px;
 }
