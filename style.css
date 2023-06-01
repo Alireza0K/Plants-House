@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html,
 body,
 div,
@@ -114,6 +117,10 @@ table {
 /*style starts*/
 body {
     font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
     line-height: 1;
     background: #ffffff;
 }
@@ -129,4 +136,113 @@ a:hover{
 
 a:visited{
     color:none;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px auto;
+}
+
+header{
+    width: 100%;
+    height: 810px;
+    padding: 20px 20px;
+    background-color: rgb(51, 153, 73);
+    background-image: url(https://img.freepik.com/free-photo/large-green-leaves-tropical-monstera-light-gray-background-with-copy-space-closeup-selective-focus-scandinavian-style-room-interior_166373-2141.jpg?w=1800&t=st=1685476858~exp=1685477458~hmac=1204dd7…);
+    /* filter: brightness(0.7); */
+    background-color: rgb(227, 227, 227);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header > .menu > ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+header > .menu > ul > li{
+    display: inline-block;
+    padding: 0px 15px 0px 0px;
+    font-size: large;
+}
+
+header > .menu > ul > li > a{
+    color: #ffffff !important;
+}
+
+header > .center-content > h1{
+    font-size: x-large;
+    color: #ffffff;
+    width: 45%;
+}
+header > .center-content > p {
+    font-size: medium;
+    color: #ffffff;
+    width: 45%;
+    line-height: 2;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: small;
+    font-family: sans-serif;
+    background-color: rgb(27, 49, 31);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.btn:hover{
+    font-size: large;
+}
+
+.take-care{
+    padding: 50px 10px;
+    display: flex;
+    width: 70%;
+    gap: 50px;
+    margin: 0px auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.take-care > .description > h1{
+    font-size: 70px;
+    margin: 0px;
+}
+
+.take-care > .description > p{
+    line-height: 2;
+    font-size: medium;
+}
+
+.vine-tree{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.vine-tree > div{
+    width: 350px;
 }
