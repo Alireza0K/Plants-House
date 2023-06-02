@@ -238,7 +238,7 @@ header > .center-content > p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 50px;
     padding: 0px 0px 50px 0px;
