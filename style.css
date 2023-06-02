@@ -296,3 +296,8 @@ header > .center-content > p {
     justify-content: space-between;
     flex-wrap: nowrap;
 }
+
+.choose-our-plants > .title > button > *{
+    margin: 0px 0px 0px 5px;
+}
+
