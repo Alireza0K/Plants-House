@@ -314,3 +314,36 @@ header > .center-content > p {
     border-bottom: 2px solid rgb(27, 49, 31);
     padding: 0px 0px 10px 0px;
 }
+
+.choose-our-plants > .shop-advice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.choose-our-plants > .shop-advice > .plant-for-sale{
+    background-color: rgb(224, 227, 232);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.choose-our-plants > .shop-advice > .plant-for-sale > img{
+    border-radius: 10px;
+}
+
+.choose-our-plants > .shop-advice > .plant-for-sale > .description{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
