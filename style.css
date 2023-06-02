@@ -284,3 +284,15 @@ header > .center-content > p {
     font-size: xx-large;
     font-weight: bold;
 }
+
+.choose-our-plants > .title > button{
+    background: none;
+    border: none;
+    font-size: large;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
