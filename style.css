@@ -275,4 +275,12 @@ header > .center-content > p {
 
 .choose-our-plants > .title{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.choose-our-plants > .title > h1{
+    font-size: xx-large;
+    font-weight: bold;
 }
