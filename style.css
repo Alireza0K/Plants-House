@@ -83,13 +83,12 @@ aside,
 details,
 figcaption,
 figure,
-footer,
-header,
 hgroup,
 menu,
 nav,
 section {
     display: block;
+    width: 1300px;
 }
 
 ol,
@@ -265,4 +264,14 @@ header > .center-content > p {
 
 .vine-tree > .left-side-text > p{
     line-height: 2;
+}
+
+.choose-our-plants{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.choose-our-plants > .title{
+    display: flex;
 }
