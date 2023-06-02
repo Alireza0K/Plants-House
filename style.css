@@ -83,13 +83,12 @@ aside,
 details,
 figcaption,
 figure,
-footer,
-header,
 hgroup,
 menu,
 nav,
 section {
     display: block;
+    width: 1300px;
 }
 
 ol,
@@ -225,7 +224,8 @@ header > .center-content > p {
 }
 
 .take-care > .description > h1{
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: bold;
     margin: 0px;
 }
 
@@ -238,11 +238,79 @@ header > .center-content > p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 50px;
+    padding: 0px 0px 50px 0px;
 }
 
 .vine-tree > div{
     width: 350px;
+}
+
+.vine-tree > .right-side-text > h1{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.vine-tree > .right-side-text > p{
+    font-size: medium;
+    line-height: 2;
+}
+
+.vine-tree > .left-side-text > h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.vine-tree > .left-side-text > p{
+    line-height: 2;
+}
+
+.choose-our-plants{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.choose-our-plants > .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.choose-our-plants > .title > h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.choose-our-plants > .title > button{
+    background: none;
+    border: none;
+    font-size: large;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.choose-our-plants > .title > button > *{
+    margin: 0px 0px 0px 5px;
+}
+
+.choose-our-plants > .menu > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.choose-our-plants > .menu > ul > .under{
+    border-bottom: 2px solid rgb(27, 49, 31);
+    padding: 0px 0px 10px 0px;
 }
