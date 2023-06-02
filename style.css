@@ -241,8 +241,28 @@ header > .center-content > p {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    padding: 0px 0px 50px 0px;
 }
 
 .vine-tree > div{
     width: 350px;
+}
+
+.vine-tree > .right-side-text > h1{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.vine-tree > .right-side-text > p{
+    font-size: medium;
+    line-height: 2;
+}
+
+.vine-tree > .left-side-text > h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.vine-tree > .left-side-text > p{
+    line-height: 2;
 }
