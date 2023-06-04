@@ -353,6 +353,32 @@ header > .center-content > p {
     display: flex;
 }
 
+.top-content > .title{
+    grid-area: title;
+    font-size: 60px;
+}
+.top-content > .image-of-top-content{
+    grid-area: image;
+}
+.top-content > .description-top-content-first{
+    grid-area: describe1;
+    line-height: 2;
+    width: 60%;
+}
+.top-content > .description-top-content-second{
+    grid-area: describe2;
+    line-height: 2;
+    width: 60%;
+}
+
 .house-plants > .top-content{
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "title title image"
+    "describe1 describe2 image";
+    gap: 30px;
+}
+
+.house-plants > .top-content > *{
+    padding: 0px;
 }
