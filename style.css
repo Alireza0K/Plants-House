@@ -271,6 +271,7 @@ header > .center-content > p {
     display: flex;
     width: 100%;
     flex-direction: column;
+    padding: 0px 0px 50px 0px;
 }
 
 .choose-our-plants > .title{
@@ -346,4 +347,12 @@ header > .center-content > p {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.house-plants{
+    display: flex;
+}
+
+.house-plants > .top-content{
+    display: flex;
 }
