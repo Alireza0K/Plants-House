@@ -442,3 +442,33 @@ header > .center-content > p {
     text-align: center;
     font-size: 70px;
 }
+
+.join-to-community > .description-for-join{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.join-to-community > .description-for-join > .left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.join-to-community > .description-for-join > .left > .title{
+    font-size: 40px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0px;
+}
+
+.join-to-community > .description-for-join > .left > .bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+}
