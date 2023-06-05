@@ -390,3 +390,40 @@ header > .center-content > p {
 .house-plants > .top-content > *{
     padding: 0px;
 }
+
+.house-plants > .bottom-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.house-plants > .bottom-content > .offer{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.house-plants > .bottom-content > .offer > .text-of-offer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: center;
+}
+
+.house-plants > .bottom-content > .offer > .text-of-offer > .text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.house-plants > .bottom-content > .offer > .text-of-offer > .text > p{
+    line-height: 2;
+}
+
+.house-plants > .bottom-content > .offer > .text-of-offer > .text > h1{
+    font-size: xx-large;
+    margin: 0px;
+}
