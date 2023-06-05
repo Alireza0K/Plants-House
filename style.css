@@ -351,6 +351,7 @@ header > .center-content > p {
 
 .house-plants{
     display: flex;
+    flex-direction: column;
     padding: 0px 0px 50px 0px;
 }
 
