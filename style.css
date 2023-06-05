@@ -427,3 +427,18 @@ header > .center-content > p {
     font-size: xx-large;
     margin: 0px;
 }
+
+.join-to-community{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.join-to-community > .title{
+    width: 60%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+}
