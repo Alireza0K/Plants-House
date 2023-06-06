@@ -481,5 +481,7 @@ header > .center-content > p {
 }
 
 footer{
-    
+    background-color: #e0e3e8;
+    width: 100%;
+    height: 300px;
 }
