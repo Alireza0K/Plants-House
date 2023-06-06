@@ -488,7 +488,7 @@ footer{
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 
 footer > .footer-objects{
@@ -498,6 +498,7 @@ footer > .footer-objects{
     justify-content: space-between;
     flex-wrap: nowrap;
     width: 1300px;
+    padding: 20px 0px;
 }
 
 footer > .footer-objects > .menu-footer{
