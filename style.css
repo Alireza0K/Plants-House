@@ -528,3 +528,8 @@ footer > .footer-objects > .menu-footer > p{
     display: block;
     width: 49%;
 }
+hr{
+    width: 1300px;
+    border: #b1b4c6 solid 0.5px;
+    border-radius: 100%;
+}
