@@ -122,6 +122,19 @@ body {
     margin: 0px;
     line-height: 1;
     background: #ffffff;
+    direction: rtl;
+}
+
+h1{
+    font-family: Lalezar;
+}
+
+p{
+    font-family: Vazirmatn;
+}
+
+ul li{
+    font-family: Vazirmatn;
 }
 
 a {
@@ -155,7 +168,7 @@ header{
     background-color: rgb(51, 153, 73);
     background-image: url(https://img.freepik.com/free-photo/large-green-leaves-tropical-monstera-light-gray-background-with-copy-space-closeup-selective-focus-scandinavian-style-room-interior_166373-2141.jpg?w=1800&t=st=1685476858~exp=1685477458~hmac=1204dd7…);
     /* filter: brightness(0.7); */
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(200, 200, 200);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center;
@@ -199,7 +212,7 @@ header > .center-content > p {
 .btn{
     padding: 10px 20px;
     font-size: small;
-    font-family: sans-serif;
+    font-family: Vazirmatn;
     background-color: rgb(27, 49, 31);
     color: #ffffff;
     border: 0px;
