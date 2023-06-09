@@ -125,6 +125,18 @@ body {
     direction: rtl;
 }
 
+h1{
+    font-family: Lalezar;
+}
+
+p{
+    font-family: Vazirmatn;
+}
+
+ul li{
+    font-family: Vazirmatn;
+}
+
 a {
     text-decoration: none;
     color: #252525;
@@ -200,7 +212,7 @@ header > .center-content > p {
 .btn{
     padding: 10px 20px;
     font-size: small;
-    font-family: sans-serif;
+    font-family: Vazirmatn;
     background-color: rgb(27, 49, 31);
     color: #ffffff;
     border: 0px;
